@@ -27,7 +27,7 @@ I have found the following data sets. The column '*Analysed*' indicates if I hav
 
 | Dataset description                                      | Number of samples per condition            | Sequencing Technology | Analysed | Reference    |
 | -------------------------------------------------------- | ------------------------------------------ | --------------------- | -------- | ------------ |
-|                                                          |                                            |                       | No       | [(Liu et al., 2015)](https://doi.org/10.1016/j.molcel.2019.09.032) |
+| GSE262072 Single-cell CAR T atlas reveals type 2 function in 8-year leukaemia remission|                                            |  Illumina NovaSeq 6000| No       | [Bai Z, Fan R; 2024) |
 
 __Table 1:__ Description of each dataset in the table.
 
