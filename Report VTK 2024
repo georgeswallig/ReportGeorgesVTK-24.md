@@ -1,0 +1,133 @@
+
+#  Acute lymphocytic leukemia(ALL)
+
+---
+
+Author: Wallig Georges
+
+---
+
+## Introduction
+
+Here I am writing the introduction to my topic...
+
+```diff
+- IMPORTANT: Copy and paste from any source is not permitted. All references must be provided (Rare exception: individual statements sentences that are quoted and clearly cited).
+```
+
+---
+
+## Available Datasets
+
+I have found the following data sets. The column '*Analysed*' indicates if I have also analysed the data ('Yes') or I just found the data set but finally decided that I don't analyse it ('No').
+
+```diff
+- HOW TO CITE: References must follow the format *First author, Year*. It must be linked to the DOI of the article. The full reference needs to be provided in the '*Literature*' section (see the example of Liu et al., 2015a)
+```
+
+| Dataset description                                      | Number of samples per condition            | Sequencing Technology | Analysed | Reference    |
+| -------------------------------------------------------- | ------------------------------------------ | --------------------- | -------- | ------------ |
+|                                                          |                                            |                       | No       | [(Liu et al., 2015)](https://doi.org/10.1016/j.molcel.2019.09.032) |
+
+__Table 1:__ Description of each dataset in the table.
+
+### Selection of representative datasets
+
+## Methods
+
+### 01_GET_RAW_DATA
+
+Please, provide here info about the data you downloaded
+
+### 02_CREATE_DESIGN_FILE
+
+Please, include here your design table (e.g. screenshot). 
+
+### 03_GET_GENOME_AND_ANNOTATION
+
+Please, write here about the genome and annotation of your choice.
+
+### 04_QUALITY_CONTROL
+
+Please, provide here some examples of the quality control output (e.g. screenshots) and elaborate on this 
+
+### 05_ADAPTER_TRIMMING
+
+Please, report here about the output of adapter trimming process
+
+### 06_MAPPING
+
+Please, provide a summary of the mapping step.
+
+### 07_QUANTIFICATION
+
+Please, describe the output of quantification.
+
+### 08_DIFF_EXPRESSION
+
+Please, describe differential gene expression.
+
+### 09_READ_COVERAGE_INVESTIGATION
+
+Please, describe read coverage investigations here.
+
+### 10_GENE_SET_ANALYSIS
+
+Please, describe gene set analysis here.
+
+### 11_PATHWAY_ANALYSIS
+
+Please, describe pathway analysis here.
+
+### 12_GENE_EXPRESSION_REGULATION 
+
+Please describe gene epression regulation analysis here.
+
+## Results
+
+In this section your concrete results should be described.
+
+**My text**
+
+Here is my bash script: 
+
+```bash 
+mkdir AwesomeProject
+```
+
+Here is my R script:
+
+```R
+library(ggplot)
+ggplot(aes(x=x,y=y), data = my_table) + geom_point()
+```
+
+Here how I provide some images/screenshots:
+
+`![](img/image1.jpg)`
+
+Outcome:
+
+![](img/image1.jpg)
+
+(all images/screenshots for report are stored in `img` folder of `00_REPORT`)
+
+A previous report has shown that the binding of the HNRNPC RBP depends on m6A impacted RNA structures [(Liu et al., 2015)](https://doi.org/10.1016/j.molcel.2019.09.032). 
+
+This is how you write the citation in the Markdown language:
+`[(Liu et al., 2015)](https://doi.org/10.1016/j.molcel.2019.09.032)`
+
+Outcome:
+
+[publication](https://pubmed.ncbi.nlm.nih.gov/34433954/)
+
+
+## Discussion and Outlook
+
+Here you should discuss all results you have got over the course. Put the results into a broader picture and give some future outlook.
+
+## Literature
+
+The literature should be sorted alphabetically
+
+ + Liu et al, 2015 | Liu, N. et al., 2015, N(6)-methyladenosine-dependent RNA structural switches regulate RNA-protein interactions, Nature, 518(7540), pp. 560–564, DOI: 10.1038/nature14234
