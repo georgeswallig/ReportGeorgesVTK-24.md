@@ -9,7 +9,7 @@ Author: Wallig Georges
 
 ## Introduction
 
-Here I am writing the introduction to my topic...
+During hematopoesis, hematocytoblasts differenciate into M.S.C and L.S.C. The L.S.C further differenciate into lymphoblasts and should from there on differenciate into B- and T- cells. But, in the case of ALL this final differenciation is not possible: the lymphocytes are stuck in their lymphoblast-stage and become B- and T-lymphoblasts. In the case of ALL, this differenciation deficiency is due to a gene mutation, for example down syndrome or a translocation (12:21 or 9:22). 
 
 ```diff
 - IMPORTANT: Copy and paste from any source is not permitted. All references must be provided (Rare exception: individual statements sentences that are quoted and clearly cited).
@@ -27,8 +27,12 @@ I have found the following data sets. The column '*Analysed*' indicates if I hav
 
 | Dataset description                                      | Number of samples per condition            | Sequencing Technology | Analysed | Reference    |
 | -------------------------------------------------------- | ------------------------------------------ | --------------------- | -------- | ------------ |
-| GSE262072 Single-cell CAR T atlas reveals type 2 function in 8-year leukaemia remission|                                            |  Illumina NovaSeq 6000| No       | [Bai Z, Fan R; 2024) |
-
+| GSE262072 Single-cell CAR T atlas reveals type 2 function in 8-year leukaemia remission|                                            |  Illumina NovaSeq 6000| No       | (Bai Z; Fan R, 2024) |
+| GSE102301 Sequencing of matched pair samples (diagnosis and relapse) in human B-cell acute lymphoblastic leukemia cells (ALL) | ------------------------------------------ | Illumina NovaSeq 6000 | No    |(Geng H et al., 2017)|
+| -------------------------------------------------------- | ------------------------------------------ | --------------------- | -------- | ------------ |
+| -------------------------------------------------------- | ------------------------------------------ | --------------------- | -------- | ------------ |
+| -------------------------------------------------------- | ------------------------------------------ | --------------------- | -------- | ------------ |
+| -------------------------------------------------------- | ------------------------------------------ | --------------------- | -------- | ------------ |
 __Table 1:__ Description of each dataset in the table.
 
 ### Selection of representative datasets
